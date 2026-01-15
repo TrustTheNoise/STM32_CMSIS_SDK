@@ -6,9 +6,10 @@
 #define CLOCKING_PIF_H_
 
 #include "device_definitions.h"
-#include "device_mcu_includes.h"
+#include "_cmsis_enhancement.h"
+#include "stm32g4xx.h"
 
-#include "debug_utils.h"
+#include "../../src/debug_lib/debug_utils.h"
 
 /****************************************************************************************/
 /*                                                                                      */
