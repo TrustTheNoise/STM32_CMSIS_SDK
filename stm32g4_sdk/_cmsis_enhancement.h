@@ -738,27 +738,27 @@
 /*                                                                                                */
 /**************************************************************************************************/
 
-typedef struct {
-    __IO uint32_t ARB; // CAN frame arbitration field
-
-    __IO uint32_t CNTRL; // CAN frame control field
-
-    __IO uint8_t DATA[64]; // CAN frame data field
-}FDCAN_FIFO_TypeDef;
-
-
-typedef struct {
-    __IO uint32_t ARB; // CAN frame arbitration field
-
-    __IO uint32_t CNTRL; // CAN frame control field
-}FDCAN_TXeFIFO_TypeDef;
-
-
-typedef struct
-{
-    __IO uint32_t SF[28];   // Standart(11-bit) ID Filter
-    __IO uint64_t EF[8];    // Extended(29-bit) ID Filter
-} FDCAN_IDFLTR_TypeDef;
+//typedef struct {
+//    __IO uint32_t ARB; // CAN frame arbitration field
+//
+//    __IO uint32_t CNTRL; // CAN frame control field
+//
+//    __IO uint8_t DATA[64]; // CAN frame data field
+//}FDCAN_FIFO_TypeDef;
+//
+//
+//typedef struct {
+//    __IO uint32_t ARB; // CAN frame arbitration field
+//
+//    __IO uint32_t CNTRL; // CAN frame control field
+//}FDCAN_TXeFIFO_TypeDef;
+//
+//
+//typedef struct
+//{
+//    __IO uint32_t SF[28];   // Standart(11-bit) ID Filter
+//    __IO uint64_t EF[8];    // Extended(29-bit) ID Filter
+//} FDCAN_IDFLTR_TypeDef;
 
 
 //typedef struct
