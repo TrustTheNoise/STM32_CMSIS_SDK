@@ -129,6 +129,12 @@
 #define DMA_IFCR_CHTIFx_Msk                         (0b0100)
 #define DMA_IFCR_CTEIFx_Msk                         (0b1000)
 
+/*! Proper definitions of DMA CCR channel priority level option */
+#define DMA_CCR_PL_Low                              (0b00U)
+#define DMA_CCR_PL_Medium                           (0b00U)
+#define DMA_CCR_PL_High                             (0b00U)
+#define DMA_CCR_PL_Very_High                        (0b00U)
+
 #define DMA_CCR_MSIZE_8_BITS                       (0b00U)
 #define DMA_CCR_MSIZE_16_BITS                      (0b01U)
 #define DMA_CCR_MSIZE_32_BITS                      (0b10U)
@@ -505,32 +511,32 @@
 
 
 /*! Proper definitions of ADC SMPR sampling time selection options. CC = clock cycles */
-#define ADC_SMPR_2p5_CC                 (0b000U)
-#define ADC_SMPR_6p5_CC                 (0b001U)
-#define ADC_SMPR_12p5_CC                (0b010U)
-#define ADC_SMPR_24p5_CC                (0b011U)
-#define ADC_SMPR_47p5_CC                (0b100U)
-#define ADC_SMPR_92p5_CC                (0b101U)
-#define ADC_SMPR_247p5_CC               (0b110U)
-#define ADC_SMPR_640p5_CC               (0b111U)
+#define ADC_SMPR_SMP_2p5_CC                 (0b000U)
+#define ADC_SMPR_SMP_6p5_CC                 (0b001U)
+#define ADC_SMPR_SMP_12p5_CC                (0b010U)
+#define ADC_SMPR_SMP_24p5_CC                (0b011U)
+#define ADC_SMPR_SMP_47p5_CC                (0b100U)
+#define ADC_SMPR_SMP_92p5_CC                (0b101U)
+#define ADC_SMPR_SMP_247p5_CC               (0b110U)
+#define ADC_SMPR_SMP_640p5_CC               (0b111U)
 
 /*! Proper definitions of ADC SQR L number of conversions selection options */
-#define ADC_SQR_L_1_CONVERSION          (0U)    // 0b0000
-#define ADC_SQR_L_2_CONVERSIONS         (1U)    // 0b0001
-#define ADC_SQR_L_3_CONVERSIONS         (2U)    // 0b0010
-#define ADC_SQR_L_4_CONVERSIONS         (3U)    // 0b0011
-#define ADC_SQR_L_5_CONVERSIONS         (4U)    // 0b0100
-#define ADC_SQR_L_6_CONVERSIONS         (5U)    // 0b0101
-#define ADC_SQR_L_7_CONVERSIONS         (6U)    // 0b0110
-#define ADC_SQR_L_8_CONVERSIONS         (7U)    // 0b0111
-#define ADC_SQR_L_9_CONVERSIONS         (8U)    // 0b1000
-#define ADC_SQR_L_10_CONVERSIONS        (9U)    // 0b1001
-#define ADC_SQR_L_11_CONVERSIONS        (10U)   // 0b1010
-#define ADC_SQR_L_12_CONVERSIONS        (11U)   // 0b1011
-#define ADC_SQR_L_13_CONVERSIONS        (12U)   // 0b1100
-#define ADC_SQR_L_14_CONVERSIONS        (13U)   // 0b1101
-#define ADC_SQR_L_15_CONVERSIONS        (14U)   // 0b1110
-#define ADC_SQR_L_16_CONVERSIONS        (15U)   // 0b1111
+#define ADC_SQR_L_1_CONVERSION          (0b0000)
+#define ADC_SQR_L_2_CONVERSIONS         (0b0001)
+#define ADC_SQR_L_3_CONVERSIONS         (0b0010)
+#define ADC_SQR_L_4_CONVERSIONS         (0b0011)
+#define ADC_SQR_L_5_CONVERSIONS         (0b0100)
+#define ADC_SQR_L_6_CONVERSIONS         (0b0101)
+#define ADC_SQR_L_7_CONVERSIONS         (0b0110)
+#define ADC_SQR_L_8_CONVERSIONS         (0b0111)
+#define ADC_SQR_L_9_CONVERSIONS         (0b1000)
+#define ADC_SQR_L_10_CONVERSIONS        (0b1001)
+#define ADC_SQR_L_11_CONVERSIONS        (0b1010)
+#define ADC_SQR_L_12_CONVERSIONS        (0b1011)
+#define ADC_SQR_L_13_CONVERSIONS        (0b1100)
+#define ADC_SQR_L_14_CONVERSIONS        (0b1101)
+#define ADC_SQR_L_15_CONVERSIONS        (0b1110)
+#define ADC_SQR_L_16_CONVERSIONS        (0b1111)
 
 
 /*! Proper definitions of ADC SQR JL number of conversions selection options */
