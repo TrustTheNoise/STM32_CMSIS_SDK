@@ -1,5 +1,6 @@
 .syntax unified 	@ Use the unified assembly syntax (for ARM and Thumb instructions)
-.cpu cortex-m4 		@ Specify the target CPU as Cortex-M4
+.cpu cortex-m3 		@ Specify the target CPU as Cortex-M3
+.thumb              @ Specify to use thumb instructions
 
 .text				@ Start of the code section
 
